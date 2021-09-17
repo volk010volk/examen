@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* начало header */
+header {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.icon-1 {
+    float: right;
+}
+
+.icon-1 img{
+    width: 15px;
+    height: 15px;
+}
+
+/* конец header */
+
+
+/* начало main */
+
+.content-1, .story-1, .story-2  {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h1, h2, p {
+    margin: 20px 60px 20px 60px;
+}
+
+.content-1-text-2 {
+    font-size: 12.5px;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 60px;
+}
+
+.gallery h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-img {
+    display: flex;
+    width: 960px;
+
+}
+
+.features h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-1 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* конец main */
+
+/* начало формы */
+.form-name {
+    display: flex;
+}
+
+.form-name-1 input, .form-name-2 input, .form-name-3 input {
+    display: block;
+    margin: 5px;
+}
+
+/* конец формы */
+
+/* начало footer */
+.icon-2, .copy-1 {
+    justify-content: center;
+}
+
+
+.icon-2, .copy-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-2 img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 30px 0 20px 0;
+}
+
+.copy-1 {
+    margin-bottom: 20px;
+}
+
+/* конец footer */
